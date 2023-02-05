@@ -1,4 +1,4 @@
-benchmark,median,max
+benchmark,max,median
 src\main\resources\benchmarks\diff.sl,1,0
 src\main\resources\benchmarks\fg_array_search_10.sl,16,12
 src\main\resources\benchmarks\fg_array_search_11.sl,24,14
