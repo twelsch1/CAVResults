@@ -1,10 +1,15 @@
-The folders in this directory are as follows:
+The folders/files in this directory are as follows:
 
 benchmarks - Contains all Single Function SyGuS CLIA Benchmarks which serve as the formal specifications.
+
 CBPSResults- Contains 10 csv files, each from a full run of the benchmarks using the CBPS algorithm. The csv files contain 
 the benchmark, whether synthesis was successful, the time taken, the program returned and that program's length.
 RBPSResults - Contains 10 csv files, each from a full run of the benchmarks using the CBPS algorithm. The csv files are in the same format
 as noted above.
+
+RBPSResults.csv - Takes the files in the RBPSResults folder and calculates median and max synthesis time of the runs.
+CBPSResults.csv - Same concept as RBPSResults.csv.
+
 JarsForReplicability - Contains jars that when executed will perform a 
 single run of the benchmarks. Both jars write a results file as synthesis is achieved.
 There are two jars, one for RBPS and one for CBPS. These can be executed with the following commands:
@@ -13,5 +18,6 @@ java -jar RBPSTestBed.jar
 
 The jars are reliant on benchmarks and params i.e. they should be run in the folder structure
 of this directory.
+
 params - Establishes evolutionary parameters, class locations, etc. for the Genetic
 Programming based classifier.
