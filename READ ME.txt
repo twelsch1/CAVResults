@@ -21,3 +21,8 @@ of this directory.
 
 params - Establishes evolutionary parameters, class locations, etc. for the Genetic
 Programming based classifier.
+
+Lemmas1And2LatexCorrected.pdf - An unfortunate error was caught after submission where in Lemmas 1, 2
+and their proofs the characters for logical operators had not been changed to properly render in Latex.
+This PDF contains these Lemmas as they were meant to be presented, and these corrections will of course
+also be included in any final submission.
